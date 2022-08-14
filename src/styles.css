@@ -1,0 +1,14 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .todo-list-item {
+    padding: 20px 10px;
+    border-bottom: solid 1px #000;
+  }
+  

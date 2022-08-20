@@ -12,13 +12,12 @@ export const Todos = (props) => {
                             <li className="todo-list-item" key={index}>
                                 <div>
                                     {todo}
-                                    <button
+                                    <div
                                         onClick={() => {
                                             onClickDelete(index);
                                         }}
                                     >
-                                        削除
-                                    </button>
+                                    </div>
                                     <button
                                         onClick={() => {
                                             onClickCompleted(index);
